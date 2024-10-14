@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Bundlr from './Bundlr.jsx'
 import Email from './Email.jsx'
+import Services from './Services.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Bundlr />
     <Email />
+    <Services/>
   </StrictMode>,
 )
